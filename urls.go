@@ -1,4 +1,4 @@
-package main
+package panasonicfridge
 
 const HOST = "https://app.psmartcloud.com"
 const TOKEN_URL = HOST + "/App/UsrGetToken"

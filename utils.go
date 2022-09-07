@@ -1,4 +1,4 @@
-package main
+package panasonicfridge
 
 import (
 	"crypto/md5"

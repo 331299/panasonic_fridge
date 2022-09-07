@@ -1,4 +1,4 @@
-package main
+package panasonicfridge
 
 import (
 	"bytes"
@@ -151,7 +151,7 @@ func (c *Client) GetDeviceStatus(deviceId string) (*ResponseData, error) {
 	return response, nil
 }
 
-func (c *Client) SetDevStatus(deviceId string, data interface{}) (*ResponseData, error) {
+func (c *Client) SetDeviceStatus(deviceId string, data interface{}) (*ResponseData, error) {
 	sToken := getSToken(deviceId)
 	params := map[string]interface{}{
 		"id":       c.getNextMessageId(),
